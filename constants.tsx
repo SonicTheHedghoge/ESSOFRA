@@ -1,5 +1,4 @@
-import React from 'react';
-import { Utensils, Coffee, Sun, Heart, Leaf, Star } from 'lucide-react';
+import { Utensils, Sun, Heart, Leaf } from 'lucide-react';
 import { MenuItem, Feature, Review } from './types';
 
 export const APP_NAME = "Essofra";
@@ -33,6 +32,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Méchoui',
     description: 'Succulent grilled lamb seasoned with local spices, served with grilled vegetables.',
     category: 'main',
+    popular: true,
   },
   {
     id: '5',
@@ -46,6 +46,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Royal Kamounia',
     description: 'Traditional stew prepared with cumin, beef liver, and meat pieces.',
     category: 'main',
+    popular: true,
   },
   {
     id: '7',
